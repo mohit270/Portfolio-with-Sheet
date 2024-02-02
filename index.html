@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohit Kundnani</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/69500058ba.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!------------------------------- Home ------------------------------->
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#profile">Achievement</a></li>
+                <li><a href="#portfolio">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i> 
+        </nav>
+        <div class="header-text">
+            <p>Full Stack Developer</p>
+            <h1>Hi, I'm <span>Mohit</span> <br>
+                Kundnani From India</h1>
+        </div>
+    </div>
+</div>
+
+<!------------------------------- About ------------------------------->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user-.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Us</h1>
+                <p class="intro">Results-driven and innovative full-stack developer with a successful project history. Proficient in programming languages, databases, and adept at leveraging cutting-edge technologies. Seeking a challenging role to contribute technical proficiency, creative problem-solving, and collaborative skills.</p>
+                <div class="tab-title">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('project')">Project</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li>
+                            <p class="subject">Programming Language :</p>
+                            <p class="institution">C++ , Dart , HTML,CSS, JAVASCRIPT</p>
+                        </li>
+                        <li>
+                            <p class="subject">Tools & Frameworks :</p>
+                            <p class="institution">GIT, Restful APIs, Postman , Packages</p>
+                        </li>
+                        <li>
+                            <p class="subject">Database :</p>
+                            <p class="institution">MongoDB , MYSQL , Firebase , SQFLITE</p>
+                        </li>
+                        <li>
+                            <p class="subject">Other :</p>
+                            <p class="institution">Data Structure & Algorithm, OOPS, Computer Network, OS</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="project">
+                    <ul>
+                        <li>
+                            <p class="subject">Programming Language</p>
+                            <p class="institution">C++ , Dart , HTML,CSS, JAVASCRIPT</p>
+                        </li>
+                        <li>
+                            <p class="subject">Tools & Frameworks</p>
+                            <p class="institution">GIT, Restful APIs, Postman , Packages</p>
+                        </li>
+                        <li>
+                            <p class="subject">Database</p>
+                            <p class="institution">MongoDB , MYSQL , Firebase , SQFLITE</p>
+                        </li>
+                        <li>
+                            <p class="subject">Other</p>
+                            <p class="institution">Data Structure & Algorithm, OOPS, Computer Network, OS</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                      <li>
+                        <p class="subject">B.Tech in ECE</p>
+                        <p class="institution">Netaji Subhash Engineering College</p>
+                        <p>CGPA: 8.0</p>
+                        <p class="duration">2020 - 2024</p>
+                      </li>
+                      <li>
+                        <p class="subject">12th in Mathematics</p>
+                        <p class="institution">Raipur Convent Higher Secondary School</p>
+                        <p>Percent: 77.6</p>
+                        <p class="duration">2018 - 2019</p>
+                      </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!------------------------------- Achievement ------------------------------->
+
+<div id="profile">
+    <div class="container">
+        <h1 class="sub-title">My Achievement</h1>
+        <div class="profile-list">
+            <div>
+                <img src="images/leetcode.png" class="i">
+                <h2>Leetcode</h2>
+                <p>In 2023-2024, this coder ranked top 7.03%, with a contest rating of 1,814 and global rank 33,053. Specializing in C++ (580 problems solved), they excel in programming, attending 28 contests with a remarkable 323 active days and a 61-day streak..</p>
+                <footer><a href="https://leetcode.com/mohit21kundnani/">learn more</a></footer>
+            </div>
+            <div>
+                <img src="images/gfg.png" class="i">
+                <h2>GeeksforGeeks</h2>
+                <p>Demonstrates exceptional coding prowess on GeeksforGeeks. With a robust overall coding score of 803, he has solved 263 problems, maintaining an impressive 16-day POTD streak. Proficient in C++.</p>
+                <br>
+                <footer><a href="https://auth.geeksforgeeks.org/user/mohit2022kundnani/">learn more</a></footer>
+            </div>
+            <div>
+                <img src="images/github.png" class="i">
+                <h2>Github</h2>
+                <p>Mohit270 excels in projects like Digital-Notes (Flutter, Firebase) and Namaste_Yoga/kitchen_buddy (Dart, Assembly), displaying versatility. With 135 contributions last year, their GitHub profile reflects a passion for collaborative coding.</p>
+                <footer><a href="https://github.com/mohit270">learn more</a></footer>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!------------------------------- Portfolio ----------------------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="projects-list">
+            <div class="project">
+                <img src="images/Yoga App.jpg" alt="">
+                <div class="layer">
+                    <h3>Yoga Exercise App</h3>
+                    <p>Elevate your yoga practice with this feature-rich app, available for download on the Play Store – your gateway to a healthier and more balanced lifestyle.</p>
+                    <a href="https://github.com/mohit270/Namaste_Yoga"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/Kitchen Buddy.jpg" alt="">
+                <div class="layer">
+                    <h3>Recipe Search Website And App</h3>
+                    <p>Introducing our vibrant recipe search website and app,as we redefine the art of cooking and bring culinary inspiration to your fingertips!.</p>
+                    <a href="https://github.com/mohit270/kitchen_buddy"><i class="fa-solid fa-link"></i></a>
+
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/note app.jpg" alt="">
+                <div class="layer">
+                    <h3>Digital Note Website And App</h3>
+                    <p>Presenting our versatile notes platform, accessible seamlessly through both a website and a mobile app, designed to enhance your note-taking experience.</p>
+                    <a href="https://github.com/mohit270/Digital-Notes"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!--------------------------------- Contact Me --------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i>mohit21kundnani@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 7389809913</p>
+                <div class="social-link">
+                    <a href="https://www.linkedin.com/in/mohit270/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/kundnanimk/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="images/Mohit_Kundnani_Resume.pdf" download class="btn btn2">Download Resume</a>
+                <a href="images/Mohit_Kundnani_photo.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                
+                    <input type="text" name="name" placeholder="Enter Your Name" required>
+                    <input type="email" name="email" placeholder="Enter Your Email"  required>
+                    <textarea name="message" placeholder="Write Your Message" required></textarea>
+                    <button type="submit" class="btn btn2" onclick="alert(`Congratulations Your Message Send`)">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>© Mohit Kundnani 2024. All rights reserved.
+            mohit21kundnani@gmail.com
+            Connect with me:  <a href="https://www.linkedin.com/in/mohit270/"><i class="fa-brands fa-linkedin"></i></a></p>
+    </div>
+</div>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwycimDf6hB8gt2igiDeDXUAMV6mYYQcsVwNlQkwFsQNRFxpPhGcIWrVpdUVSJ57O6u/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+<script src="script.js"></script>
+<script src="https://web3forms.com/client/script.js" async defer></script>
+</body>
+</html>
